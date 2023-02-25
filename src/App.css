@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+.all{
+  background-image: repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(151, 26, 210),rgb(57, 199, 205));
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.mainBox{
+  height: 300px;
+  width:  600px ;
+  display:grid;
+  grid-template-columns: 40% 60%;
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+  border-radius: 0 60px ;
+}
+
+.name{
+  font-family: 'Gloock', serif;
+  font-size: xx-large;
+  position: relative;
+  top: 28%;
+  left: 17%;
+}
+.profession{
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  top: -130px;
+  left: 300px;
+}
+.bio{
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  top: -50px;
+  left: 100px;
+}
+.img{
+  position: relative;
+  top: 38px;
+  left: 10%;
+}
+#img{
+  border-radius: 50%;
+}
+.btm{
+all: unset;
+font-size: 10px;
+width: 110px;
+align-items: center;
+justify-content: center;
+display: flex;
+height: 50px;
+padding: 1px 5px;
+backdrop-filter: blur(3px);
+border: 1.5px solid rgba(255, 255, 255, 0.18);
+/* box-shadow: 0 8px 20px 0 rgba(255, 255, 255, 0.1); */
+position: absolute;
+border-radius: 30px;
+top: 100px;
+font-family: 'Titan One', cursive;
+letter-spacing: 1px;
+cursor: pointer;
+}
+.btm:hover{
+  transform: scale(1.1);
+  backdrop-filter: blur(0px);
+  color: whitesmoke;
+  font-size: 12px;
+
+}
